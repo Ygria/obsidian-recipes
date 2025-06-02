@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "b7131e40d6e7437f",
+    "type": "split",
+    "children": [
+      {
+        "id": "60366c7618c3584b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dc3a7091011126e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "菜谱/红烧鸡腿.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "红烧鸡腿"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71b3cd1fb36a8da6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e99050232ae3999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ea7a9e1392add7c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c4a4cbde6386ce24",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "173128ef7fe2e7ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5
+  },
+  "right": {
+    "id": "18c95942544ab193",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d8ffedab81e810b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "083ab09402061a5c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "菜谱/红烧鸡腿.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "红烧鸡腿 的反向链接列表"
+            }
+          },
+          {
+            "id": "a11f97409967bf0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "菜谱/红烧鸡腿.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "红烧鸡腿 的出链列表"
+            }
+          },
+          {
+            "id": "f3900d4d6227c7fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ff2aff632b4369b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "菜谱/卤牛腱子.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "卤牛腱子 的大纲"
+            }
+          },
+          {
+            "id": "ccca6935db655920",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4ea7a9e1392add7c",
+  "lastOpenFiles": [
+    "菜谱/番茄牛腩.md",
+    "菜谱/冬瓜汆丸子.md",
+    "菜谱/地锅鸡.md",
+    "菜谱/葱油饼 （难度5颗星）.md",
+    "菜谱/葱烧豆腐.md",
+    "菜谱/芹菜炒牛肉.md",
+    "菜谱/卤牛腱子.md",
+    "菜谱/黄油煎芦笋.md",
+    "菜谱/红烧鸡腿.md",
+    "菜谱/红烧鲫鱼.md",
+    "调料/🌶小米辣.md",
+    "调料/生抽.md",
+    "原材料/冬瓜.md",
+    "原材料/🧅洋葱.md",
+    "原材料/🦐虾.md",
+    "菜谱/辣炒花甲.md",
+    "菜谱/凉拌菠菜.md",
+    "菜谱/红烧排骨.md",
+    "菜谱/高压锅煮牛肉 （村驴）.md",
+    "菜谱/蒜香黄油虾.md",
+    "原材料/菠菜.md",
+    "调料/老抽.md",
+    "菜谱/盐葱牛肉.md",
+    "菜谱/西红柿鸡蛋炝锅面（隋坡）.md",
+    "菜谱/清炒芹菜.md",
+    "调料/🧂盐.md",
+    "图片/Pasted image 20250601231631.png",
+    "图片",
+    "烹饪用具",
+    "调料",
+    "原材料",
+    "菜谱"
+  ]
+}
