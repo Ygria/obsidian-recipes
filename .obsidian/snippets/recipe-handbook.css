@@ -1,154 +1,213 @@
 :root {
-    --paper-base-color: #fffcf5;
-    /* 纸张的基础颜色 - 淡淡的米色 */
-    --grid-line-base-color: '#d4c19d';
-    /* 网格线条的基础颜色 (SVG中编码为 %23d4c19d) */
-    --grid-line-opacity: '0.15';
-    /* 网格线条的透明度 - 调低使其更浅 */
-    --grid-tile-size: 30px;
-    /* 网格单元格大小 */
-    --outer-border-color: #c0b0909b;
-    ;
-    /* 外框线的颜色 - 比米色稍深一点的颜色 */
+  --paper-base-color: #fffcf5;
+  /* 纸张的基础颜色 - 淡淡的米色 */
+  --grid-line-base-color: "#d4c19d";
+  /* 网格线条的基础颜色 (SVG中编码为 %23d4c19d) */
+  --grid-line-opacity: "0.15";
+  /* 网格线条的透明度 - 调低使其更浅 */
+  --grid-tile-size: 30px;
+  /* 网格单元格大小 */
+  --outer-border-color: #c0b0909b;
+  /* 外框线的颜色 - 比米色稍深一点的颜色 */
 
-    --hole-color: #c0b090;
-    --hole-strip-padding: 68px;
-    --hole-center-offset: 12px;
-    --hole-size-small: 4px;
-    --hole-size-large: 6px;
-    --hole-vertical-separation: 30px;
-    --hole-pos-y-1: calc(var(--hole-vertical-separation) * 1);
-    --hole-pos-y-2: calc(var(--hole-vertical-separation) * 2);
-    --hole-pos-y-3: calc(var(--hole-vertical-separation) * 3);
-    --hole-pos-y-4: calc(var(--hole-vertical-separation) * 4);
-    --hole-pos-y-5: calc(var(--hole-vertical-separation) * 5);
-    --hole-pos-y-6: calc(var(--hole-vertical-separation) * 6);
-    --hole-pos-y-7: calc(var(--hole-vertical-separation) * 7);
-    --hole-pos-y-8: calc(var(--hole-vertical-separation) * 8);
-    --hole-pos-y-9: calc(var(--hole-vertical-separation) * 9);
-    --hole-pos-y-10: calc(var(--hole-vertical-separation) * 10);
-    --hole-pos-y-11: calc(var(--hole-vertical-separation) * 11);
-    --hole-pos-y-12: calc(var(--hole-vertical-separation) * 12);
-    --hole-pattern-height: calc(var(--hole-vertical-separation) * 13);
+  --hole-color: #c0b090;
+  --hole-strip-padding: 68px;
+  --hole-center-offset: 12px;
+  --hole-size-small: 4px;
+  --hole-size-large: 6px;
+  --hole-vertical-separation: 30px;
+  --hole-pos-y-1: calc(var(--hole-vertical-separation) * 1);
+  --hole-pos-y-2: calc(var(--hole-vertical-separation) * 2);
+  --hole-pos-y-3: calc(var(--hole-vertical-separation) * 3);
+  --hole-pos-y-4: calc(var(--hole-vertical-separation) * 4);
+  --hole-pos-y-5: calc(var(--hole-vertical-separation) * 5);
+  --hole-pos-y-6: calc(var(--hole-vertical-separation) * 6);
+  --hole-pos-y-7: calc(var(--hole-vertical-separation) * 7);
+  --hole-pos-y-8: calc(var(--hole-vertical-separation) * 8);
+  --hole-pos-y-9: calc(var(--hole-vertical-separation) * 9);
+  --hole-pos-y-10: calc(var(--hole-vertical-separation) * 10);
+  --hole-pos-y-11: calc(var(--hole-vertical-separation) * 11);
+  --hole-pos-y-12: calc(var(--hole-vertical-separation) * 12);
+  --hole-pattern-height: calc(var(--hole-vertical-separation) * 13);
 }
 
 .cm-editor {
-    background-color: var(--paper-base-color);
-
+  background-color: var(--paper-base-color);
 }
 
 .cm-contentContainer {
-    border: 1px solid var(--outer-border-color);
-    padding: 12px
+  border: 1px solid var(--outer-border-color);
+  padding: 12px;
 }
 
 .internal-embed img {
-    /* border: 1px double var(--outer-border-color); */
-    border-radius: 24px;
-    /* padding: 12px; */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    /* background-color: var(--outer-border-color); */
+  /* border: 1px double var(--outer-border-color); */
+  border-radius: 24px;
+  /* padding: 12px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  /* background-color: var(--outer-border-color); */
 }
 
+/* @font-face {
+    font-family: 'Chalkduster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Chalkduster'), url('https://c.webfontfree.com/c.js?f=Chalkduster') format('woff');
+} */
+
+
 .list-number {
-    color: #a4926d;
-    font-size: 18px;
-    font-family: chalkduster ;
+  color: #a4926d;
+  font-size: 18px;
+  font-family: "Chalkduster";
 }
 
 .cm-highlight {
-
-    padding: 2px 5px; /* 根据需要调整内边距 */
-    border-radius: 5px; /* 圆角效果 */
-    line-height: 1.8; /* 调整行高，确保背景不会太挤 */
-    /* font-family: chalkduster ; */
-    --text-highlight-bg: rgba(255, 192, 203, 0.5);
+  padding: 2px 5px; /* 根据需要调整内边距 */
+  border-radius: 5px; /* 圆角效果 */
+  line-height: 1.8; /* 调整行高，确保背景不会太挤 */
+  /* font-family: chalkduster ; */
+  --text-highlight-bg: rgba(255, 192, 203, 0.5);
 }
 
 /* 主要内容区域的样式 */
+
+.markdown-reading-view {
+      background-color: var(--paper-base-color);
+
+      li::marker {
+          font-family: "Chalkduster";
+      }
+}
+
 .cm-scroller,
 .markdown-preview-view {
-    position: relative;
-    padding-left: var(--hole-strip-padding) !important;
+  position: relative;
+  padding-left: var(--hole-strip-padding) !important;
 
-    /* 1. 统一的淡淡米色背景 */
-    background-color: var(--paper-base-color);
+  /* 1. 统一的淡淡米色背景 */
+  background-color: var(--paper-base-color);
 
+  /* 2. 更浅的单线网格背景图片 */
+  /* 注意：SVG URL中的 fill 和 fill-opacity 值是直接写入的，以确保最佳兼容性 */
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4c19d' fill-opacity='0.15'%3E%3Cpath d='M0 19h20v1H0zm19-19v20h1V0z'/%3E%3C/g%3E%3C/svg%3E");
 
+  /* 3. 网格的重复方式和大小 */
+  background-repeat: repeat;
+  background-size: var(--grid-tile-size) var(--grid-tile-size);
 
+  /* 4. 让网格背景只在内容区域绘制 (不包括padding区域) */
+  background-origin: content-box;
+  background-clip: content-box;
 
-    /* 2. 更浅的单线网格背景图片 */
-    /* 注意：SVG URL中的 fill 和 fill-opacity 值是直接写入的，以确保最佳兼容性 */
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4c19d' fill-opacity='0.15'%3E%3Cpath d='M0 19h20v1H0zm19-19v20h1V0z'/%3E%3C/g%3E%3C/svg%3E");
-
-    /* 3. 网格的重复方式和大小 */
-    background-repeat: repeat;
-    background-size: var(--grid-tile-size) var(--grid-tile-size);
-
-    /* 4. 让网格背景只在内容区域绘制 (不包括padding区域) */
-    background-origin: content-box;
-    background-clip: content-box;
-
-    /* 5. 添加外边缘框线 */
-    border: 1px solid var(--outer-border-color);
-    box-sizing: border-box;
-    /* 确保边框不会增加元素的总宽度/高度 */
+  /* 5. 添加外边缘框线 */
+  border: 1px solid var(--outer-border-color);
+  box-sizing: border-box;
+  /* 确保边框不会增加元素的总宽度/高度 */
 }
 
 /* 创建打孔效果的伪元素 (代码保持不变) */
 .cm-scroller::before,
 .markdown-preview-view::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    /* left: 0; 使打孔区域的左边与父元素的border内侧对齐。
+  content: "";
+  position: absolute;
+  top: 0;
+  /* left: 0; 使打孔区域的左边与父元素的border内侧对齐。
        如果希望打孔也“压”在边框上或者边框在打孔区域内部，可以微调这里的left值，
        或者调整父元素的padding和border关系。
        但通常情况下，left:0 配合父元素的border-box 和 padding 是正确的。
     */
-    left: 0;
-    width: var(--hole-strip-padding);
-    height: 100%;
+  left: 0;
+  width: var(--hole-strip-padding);
+  height: 100%;
 
-    background-image:
-        /* 1. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 2. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 3. 大 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-large), transparent calc(var(--hole-size-large) + 0.5px)),
-        /* 4. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 5. 大 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-large), transparent calc(var(--hole-size-large) + 0.5px)),
-        /* 6. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 7. 大 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-large), transparent calc(var(--hole-size-large) + 0.5px)),
-        /* 8. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 9. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 10. 大 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-large), transparent calc(var(--hole-size-large) + 0.5px)),
-        /* 11. 小 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-small), transparent calc(var(--hole-size-small) + 0.5px)),
-        /* 12. 大 */
-        radial-gradient(circle, var(--hole-color) var(--hole-size-large), transparent calc(var(--hole-size-large) + 0.5px));
+  background-image:
+        /* 1. 小 */ radial-gradient(
+      circle,
+      var(--hole-color) var(--hole-size-small),
+      transparent calc(var(--hole-size-small) + 0.5px)
+    ),
+    /* 2. 小 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-small),
+        transparent calc(var(--hole-size-small) + 0.5px)
+      ),
+    /* 3. 大 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-large),
+        transparent calc(var(--hole-size-large) + 0.5px)
+      ),
+    /* 4. 小 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-small),
+        transparent calc(var(--hole-size-small) + 0.5px)
+      ),
+    /* 5. 大 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-large),
+        transparent calc(var(--hole-size-large) + 0.5px)
+      ),
+    /* 6. 小 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-small),
+        transparent calc(var(--hole-size-small) + 0.5px)
+      ),
+    /* 7. 大 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-large),
+        transparent calc(var(--hole-size-large) + 0.5px)
+      ),
+    /* 8. 小 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-small),
+        transparent calc(var(--hole-size-small) + 0.5px)
+      ),
+    /* 9. 小 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-small),
+        transparent calc(var(--hole-size-small) + 0.5px)
+      ),
+    /* 10. 大 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-large),
+        transparent calc(var(--hole-size-large) + 0.5px)
+      ),
+    /* 11. 小 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-small),
+        transparent calc(var(--hole-size-small) + 0.5px)
+      ),
+    /* 12. 大 */
+      radial-gradient(
+        circle,
+        var(--hole-color) var(--hole-size-large),
+        transparent calc(var(--hole-size-large) + 0.5px)
+      );
 
-    background-repeat: repeat-y;
-    background-position:
-        var(--hole-center-offset) var(--hole-pos-y-1),
-        var(--hole-center-offset) var(--hole-pos-y-2),
-        var(--hole-center-offset) var(--hole-pos-y-3),
-        var(--hole-center-offset) var(--hole-pos-y-4),
-        var(--hole-center-offset) var(--hole-pos-y-5),
-        var(--hole-center-offset) var(--hole-pos-y-6),
-        var(--hole-center-offset) var(--hole-pos-y-7),
-        var(--hole-center-offset) var(--hole-pos-y-8),
-        var(--hole-center-offset) var(--hole-pos-y-9),
-        var(--hole-center-offset) var(--hole-pos-y-10),
-        var(--hole-center-offset) var(--hole-pos-y-11),
-        var(--hole-center-offset) var(--hole-pos-y-12);
-    background-size: auto var(--hole-pattern-height);
+  background-repeat: repeat-y;
+  background-position: var(--hole-center-offset) var(--hole-pos-y-1),
+    var(--hole-center-offset) var(--hole-pos-y-2),
+    var(--hole-center-offset) var(--hole-pos-y-3),
+    var(--hole-center-offset) var(--hole-pos-y-4),
+    var(--hole-center-offset) var(--hole-pos-y-5),
+    var(--hole-center-offset) var(--hole-pos-y-6),
+    var(--hole-center-offset) var(--hole-pos-y-7),
+    var(--hole-center-offset) var(--hole-pos-y-8),
+    var(--hole-center-offset) var(--hole-pos-y-9),
+    var(--hole-center-offset) var(--hole-pos-y-10),
+    var(--hole-center-offset) var(--hole-pos-y-11),
+    var(--hole-center-offset) var(--hole-pos-y-12);
+  background-size: auto var(--hole-pattern-height);
 }
