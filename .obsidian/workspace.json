@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "60366c7618c3584b",
+        "id": "0f91822aa99f334a",
         "type": "tabs",
         "children": [
           {
-            "id": "1dc3a7091011126e",
+            "id": "754acbec0ff86661",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "菜谱/主食-蒸红薯（每100g 70大卡）.md",
+                "file": "菜谱/花椒蒸鸡腿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "主食-蒸红薯（每100g 70大卡）"
+              "title": "花椒蒸鸡腿"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 222.5
   },
   "right": {
     "id": "18c95942544ab193",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "菜谱/主食-蒸红薯（每100g 70大卡）.md",
+                "file": "菜谱/花椒蒸鸡腿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "主食-蒸红薯（每100g 70大卡） 的反向链接列表"
+              "title": "花椒蒸鸡腿 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "菜谱/主食-蒸红薯（每100g 70大卡）.md",
+                "file": "菜谱/高压锅煮牛肉 （村驴）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "主食-蒸红薯（每100g 70大卡） 的出链列表"
+              "title": "高压锅煮牛肉 （村驴） 的出链列表"
             }
           },
           {
@@ -127,7 +127,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,10 +165,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 230.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -177,36 +178,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1dc3a7091011126e",
+  "active": "754acbec0ff86661",
   "lastOpenFiles": [
+    "菜谱/红烧鲫鱼.md",
+    "菜谱/花椒蒸鸡腿.md",
+    "菜谱/冬瓜汆丸子.md",
+    "原材料/🥕胡萝卜.md",
+    "原材料/🥔土豆.md",
+    "菜谱/西红柿鸡蛋炝锅面（隋坡）.md",
+    "菜谱/酸菜鱼.md",
+    "菜谱/白灼虾.md",
+    "菜谱/葱油饼 （难度5颗星）.md",
+    "菜谱/地锅鸡.md",
+    "菜谱/主食-蒸红薯（每100g 70大卡）.md",
     "菜谱/盐葱牛肉.md",
     "菜谱/虾仁滑蛋.md",
-    "菜谱/西红柿鸡蛋炝锅面（隋坡）.md",
-    "菜谱/蒜香黄油虾.md",
-    "菜谱/酸菜鱼.md",
     "菜谱/清炒芹菜.md",
+    "菜谱/红烧鸡腿.md",
+    "菜谱/黄油煎芦笋.md",
     "菜谱/清炒白菜（天津白）.md",
-    "菜谱/芹菜炒牛肉.md",
+    "菜谱/高压锅煮牛肉 （村驴）.md",
     "菜谱/卤牛腱子.md",
     "菜谱/凉拌菠菜.md",
-    "菜谱/辣炒花甲.md",
-    "菜谱/黄油煎芦笋.md",
-    "菜谱/花椒蒸鸡腿.md",
-    "菜谱/红烧排骨.md",
-    "菜谱/红烧鲫鱼.md",
-    "菜谱/红烧鸡腿.md",
-    "菜谱/高压锅煮牛肉 （村驴）.md",
-    "菜谱/番茄牛腩.md",
-    "菜谱/冬瓜汆丸子.md",
-    "菜谱/地锅鸡.md",
-    "菜谱/葱油饼 （难度5颗星）.md",
     "菜谱/葱烧豆腐.md",
-    "菜谱/白灼虾.md",
-    "菜谱/主食-蒸红薯（每100g 70大卡）.md",
-    "原材料/青红椒.md",
-    "原材料/芹菜.md",
-    "饮食健康",
+    "菜谱/鸡蛋.md",
+    "调料/生抽.md",
+    "调料/味精.md",
+    "烹饪用具/厨师机.md",
+    "菜谱/番茄牛腩.md",
     "图片/Pasted image 20250603170503.png",
+    "饮食健康",
     "图片/Pasted image 20250603012659.png",
     "图片/Pasted image 20250603012534.png",
     "图片/Pasted image 20250603012301.png",

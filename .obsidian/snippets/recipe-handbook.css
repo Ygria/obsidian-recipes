@@ -29,8 +29,20 @@
   --hole-pos-y-11: calc(var(--hole-vertical-separation) * 11);
   --hole-pos-y-12: calc(var(--hole-vertical-separation) * 12);
   --hole-pattern-height: calc(var(--hole-vertical-separation) * 13);
+
+  --file-line-width: 900px !important;
 }
 
+/* .cm-sizer {
+  width: 1000px !important;
+
+  max-width: 1000px !important;
+}
+
+.cm-lineWrapping {
+  --file-line-width: 1000px !important;
+  max-width: 1000px !important;
+} */
 .cm-editor {
   background-color: var(--paper-base-color);
 }
@@ -57,7 +69,6 @@
     src: local('Chalkduster'), url('https://c.webfontfree.com/c.js?f=Chalkduster') format('woff');
 } */
 
-
 .list-number {
   color: #a4926d;
   font-size: 18px;
@@ -75,11 +86,11 @@
 /* 主要内容区域的样式 */
 
 .markdown-reading-view {
-      background-color: var(--paper-base-color);
+  background-color: var(--paper-base-color);
 
-      li::marker {
-          font-family: "Chalkduster";
-      }
+  li::marker {
+    font-family: "Chalkduster";
+  }
 }
 
 .cm-scroller,
